@@ -1,5 +1,5 @@
 /*
 ***class Coder***
 
-This class is used to encrypt and decrypt C-style strings and character array.
+This class is used to encrypt and decrypt C-style strings and character arrays.
 */
