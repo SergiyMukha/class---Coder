@@ -72,7 +72,7 @@ void Coder::encode()
 	int key_size = 10;
 	char *temp = new char[m_size];
 	memcpy(temp, m_buf, m_size);
-	for (int i = 0; i != size; ++i)
+	for (int i = 0; i != m_size; ++i)
 	{
 		m_buf[i] = temp[i] ^ key[i%key_size];
 	}
