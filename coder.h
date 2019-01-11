@@ -1,5 +1,5 @@
 #include<iostream>
-#include<string>
+#include<string.h>
 #ifndef CODER_H
 #define CODER_H
 
